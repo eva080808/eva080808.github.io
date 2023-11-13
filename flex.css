@@ -1,0 +1,71 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-row {
+    /* включаем flexbox*/
+    display: flex;
+    /*направление расположение блоков main слево направо*/
+    flex-direction: row;
+    /*направление расположения блоков по центру*/
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*размер с лого и заголовки(его вес)отновительно других элементов*/
+    flex-grow: 1;
+}
+
+.logo-img {
+    margin-right: 40px;
+}
+
+.header-menu {
+    flex-grow: 3;
+}
+
+/*CARDS*/
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*FOOTER*/
+.footer-rom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer-search-input {
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-right: 10px;
+    border: none;
+}
